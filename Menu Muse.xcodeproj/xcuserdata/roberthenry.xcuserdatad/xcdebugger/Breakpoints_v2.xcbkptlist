@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C4757BA3-4EF5-46C7-B912-5DAF201D12EB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "885D257A-2802-4625-9CC8-1E3716DA2F8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "prototype/DishPlanDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "885D257A-2802-4625-9CC8-1E3716DA2F8B - 9d1cf48b62e43b18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;prototype.RecipeData, Swift.Error&gt;) -&gt; () in prototype.DishPlanDetailView_Model.loadData() -&gt; ()"
+                  moduleName = "prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roberthenry/Documents/okamotohenry/menu%20muse/software/xcode/prototype/prototype/DishPlanDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "510">
+               </Location>
+               <Location
+                  uuid = "885D257A-2802-4625-9CC8-1E3716DA2F8B - 9d1cf48b62e438da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;prototype.RecipeData, Swift.Error&gt;) -&gt; () in prototype.DishPlanDetailView_Model.loadData() -&gt; ()"
+                  moduleName = "prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roberthenry/Documents/okamotohenry/menu%20muse/software/xcode/prototype/prototype/DishPlanDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "885D257A-2802-4625-9CC8-1E3716DA2F8B - 8c345e475fa86864"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;prototype.RecipeData, Swift.Error&gt;) -&gt; () in prototype.DishPlanDetailView_Model.loadData() -&gt; ()"
+                  moduleName = "prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roberthenry/Documents/okamotohenry/menu%20muse/software/xcode/Menu%20Muse/prototype/DishPlanDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "510">
+               </Location>
+               <Location
+                  uuid = "885D257A-2802-4625-9CC8-1E3716DA2F8B - 36f5af78537c5c1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Menu_Muse.RecipeData, Swift.Error&gt;) -&gt; () in Menu_Muse.DishPlanDetailView_Model.loadData() -&gt; ()"
+                  moduleName = "Menu Muse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roberthenry/Documents/okamotohenry/menu%20muse/software/xcode/Menu%20Muse/prototype/DishPlanDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "510">
+               </Location>
+               <Location
+                  uuid = "885D257A-2802-4625-9CC8-1E3716DA2F8B - 36f5af78537c5c1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Menu_Muse.RecipeData, Swift.Error&gt;) -&gt; () in Menu_Muse.DishPlanDetailView_Model.loadData() -&gt; ()"
+                  moduleName = "Menu Muse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roberthenry/Documents/okamotohenry/menu%20muse/software/xcode/Menu%20Muse/prototype/DishPlanDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,22 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F12F5DA2B0C0B56000E18F3 /* DishPlanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12F5D92B0C0B56000E18F3 /* DishPlanDetailView.swift */; };
+		4F12F5DC2B0CB92D000E18F3 /* basePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12F5DB2B0CB92D000E18F3 /* basePlanView.swift */; };
+		4F12F5DE2B0CB96C000E18F3 /* dayPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12F5DD2B0CB96C000E18F3 /* dayPlanView.swift */; };
+		4F12F5E02B0CBC28000E18F3 /* DishPlanRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12F5DF2B0CBC28000E18F3 /* DishPlanRowView.swift */; };
+		4F12F5E22B0E0F36000E18F3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12F5E12B0E0F36000E18F3 /* MainTabView.swift */; };
+		4F12F5E42B0E0F5F000E18F3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12F5E32B0E0F5F000E18F3 /* HomeView.swift */; };
 		4FBCBAD82B048EE000F89254 /* prototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAD72B048EE000F89254 /* prototypeApp.swift */; };
-		4FBCBADA2B048EE000F89254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAD92B048EE000F89254 /* ContentView.swift */; };
 		4FBCBADC2B048EE200F89254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBCBADB2B048EE200F89254 /* Assets.xcassets */; };
 		4FBCBADF2B048EE200F89254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBCBADE2B048EE200F89254 /* Preview Assets.xcassets */; };
 		4FBCBAE12B048EE200F89254 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAE02B048EE200F89254 /* Persistence.swift */; };
 		4FBCBAE42B048EE200F89254 /* prototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAE22B048EE200F89254 /* prototype.xcdatamodeld */; };
+		4FBCBAEF2B0492C400F89254 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAEE2B0492C400F89254 /* mainView.swift */; };
+		4FBCBAF92B04C17100F89254 /* helperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAF82B04C17100F89254 /* helperFunctions.swift */; };
+		4FBCBAFB2B057A8F00F89254 /* dataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAFA2B057A8F00F89254 /* dataModels.swift */; };
+		4FBCBAFD2B05822F00F89254 /* globalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAFC2B05822F00F89254 /* globalConstants.swift */; };
+		4FBCBAFF2B05BD2F00F89254 /* settingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBAFE2B05BD2F00F89254 /* settingsView.swift */; };
+		4FBCBB012B05BE5F00F89254 /* TastePreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBB002B05BE5F00F89254 /* TastePreferencesView.swift */; };
+		4FBCBB032B06001900F89254 /* draftPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCBB022B06001900F89254 /* draftPlan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4FBCBAD42B048EE000F89254 /* prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F12F5D92B0C0B56000E18F3 /* DishPlanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPlanDetailView.swift; sourceTree = "<group>"; };
+		4F12F5DB2B0CB92D000E18F3 /* basePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basePlanView.swift; sourceTree = "<group>"; };
+		4F12F5DD2B0CB96C000E18F3 /* dayPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayPlanView.swift; sourceTree = "<group>"; };
+		4F12F5DF2B0CBC28000E18F3 /* DishPlanRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPlanRowView.swift; sourceTree = "<group>"; };
+		4F12F5E12B0E0F36000E18F3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4F12F5E32B0E0F5F000E18F3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4FBCBAD42B048EE000F89254 /* Menu Muse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Menu Muse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBCBAD72B048EE000F89254 /* prototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prototypeApp.swift; sourceTree = "<group>"; };
-		4FBCBAD92B048EE000F89254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FBCBADB2B048EE200F89254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FBCBADE2B048EE200F89254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FBCBAE02B048EE200F89254 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4FBCBAE32B048EE200F89254 /* prototype.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = prototype.xcdatamodel; sourceTree = "<group>"; };
+		4FBCBAEE2B0492C400F89254 /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		4FBCBAF82B04C17100F89254 /* helperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperFunctions.swift; sourceTree = "<group>"; };
+		4FBCBAFA2B057A8F00F89254 /* dataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModels.swift; sourceTree = "<group>"; };
+		4FBCBAFC2B05822F00F89254 /* globalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalConstants.swift; sourceTree = "<group>"; };
+		4FBCBAFE2B05BD2F00F89254 /* settingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsView.swift; sourceTree = "<group>"; };
+		4FBCBB002B05BE5F00F89254 /* TastePreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastePreferencesView.swift; sourceTree = "<group>"; };
+		4FBCBB022B06001900F89254 /* draftPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = draftPlan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +63,9 @@
 		4FBCBACB2B048EE000F89254 = {
 			isa = PBXGroup;
 			children = (
+				4FBCBAFC2B05822F00F89254 /* globalConstants.swift */,
+				4FBCBB022B06001900F89254 /* draftPlan.swift */,
+				4FBCBAFA2B057A8F00F89254 /* dataModels.swift */,
 				4FBCBAD62B048EE000F89254 /* prototype */,
 				4FBCBAD52B048EE000F89254 /* Products */,
 			);
@@ -47,7 +74,7 @@
 		4FBCBAD52B048EE000F89254 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FBCBAD42B048EE000F89254 /* prototype.app */,
+				4FBCBAD42B048EE000F89254 /* Menu Muse.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,7 +83,16 @@
 			isa = PBXGroup;
 			children = (
 				4FBCBAD72B048EE000F89254 /* prototypeApp.swift */,
-				4FBCBAD92B048EE000F89254 /* ContentView.swift */,
+				4F12F5DB2B0CB92D000E18F3 /* basePlanView.swift */,
+				4F12F5E12B0E0F36000E18F3 /* MainTabView.swift */,
+				4F12F5E32B0E0F5F000E18F3 /* HomeView.swift */,
+				4F12F5DD2B0CB96C000E18F3 /* dayPlanView.swift */,
+				4F12F5DF2B0CBC28000E18F3 /* DishPlanRowView.swift */,
+				4FBCBAFE2B05BD2F00F89254 /* settingsView.swift */,
+				4FBCBB002B05BE5F00F89254 /* TastePreferencesView.swift */,
+				4F12F5D92B0C0B56000E18F3 /* DishPlanDetailView.swift */,
+				4FBCBAEE2B0492C400F89254 /* mainView.swift */,
+				4FBCBAF82B04C17100F89254 /* helperFunctions.swift */,
 				4FBCBADB2B048EE200F89254 /* Assets.xcassets */,
 				4FBCBAE02B048EE200F89254 /* Persistence.swift */,
 				4FBCBAE22B048EE200F89254 /* prototype.xcdatamodeld */,
@@ -76,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FBCBAD32B048EE000F89254 /* prototype */ = {
+		4FBCBAD32B048EE000F89254 /* Menu Muse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FBCBAE72B048EE200F89254 /* Build configuration list for PBXNativeTarget "prototype" */;
+			buildConfigurationList = 4FBCBAE72B048EE200F89254 /* Build configuration list for PBXNativeTarget "Menu Muse" */;
 			buildPhases = (
 				4FBCBAD02B048EE000F89254 /* Sources */,
 				4FBCBAD12B048EE000F89254 /* Frameworks */,
@@ -88,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = prototype;
+			name = "Menu Muse";
 			productName = prototype;
-			productReference = 4FBCBAD42B048EE000F89254 /* prototype.app */;
+			productReference = 4FBCBAD42B048EE000F89254 /* Menu Muse.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4FBCBACF2B048EE000F89254 /* Build configuration list for PBXProject "prototype" */;
+			buildConfigurationList = 4FBCBACF2B048EE000F89254 /* Build configuration list for PBXProject "Menu Muse" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FBCBAD32B048EE000F89254 /* prototype */,
+				4FBCBAD32B048EE000F89254 /* Menu Muse */,
 			);
 		};
 /* End PBXProject section */
@@ -145,8 +181,20 @@
 			files = (
 				4FBCBAE42B048EE200F89254 /* prototype.xcdatamodeld in Sources */,
 				4FBCBAE12B048EE200F89254 /* Persistence.swift in Sources */,
-				4FBCBADA2B048EE000F89254 /* ContentView.swift in Sources */,
+				4F12F5E02B0CBC28000E18F3 /* DishPlanRowView.swift in Sources */,
+				4FBCBB032B06001900F89254 /* draftPlan.swift in Sources */,
+				4F12F5DA2B0C0B56000E18F3 /* DishPlanDetailView.swift in Sources */,
+				4FBCBB012B05BE5F00F89254 /* TastePreferencesView.swift in Sources */,
+				4FBCBAF92B04C17100F89254 /* helperFunctions.swift in Sources */,
+				4FBCBAEF2B0492C400F89254 /* mainView.swift in Sources */,
+				4FBCBAFD2B05822F00F89254 /* globalConstants.swift in Sources */,
 				4FBCBAD82B048EE000F89254 /* prototypeApp.swift in Sources */,
+				4FBCBAFB2B057A8F00F89254 /* dataModels.swift in Sources */,
+				4F12F5DE2B0CB96C000E18F3 /* dayPlanView.swift in Sources */,
+				4FBCBAFF2B05BD2F00F89254 /* settingsView.swift in Sources */,
+				4F12F5E42B0E0F5F000E18F3 /* HomeView.swift in Sources */,
+				4F12F5DC2B0CB92D000E18F3 /* basePlanView.swift in Sources */,
+				4F12F5E22B0E0F36000E18F3 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"prototype/Preview Content\"";
+				DEVELOPMENT_TEAM = 2U8VVNA68Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"prototype/Preview Content\"";
+				DEVELOPMENT_TEAM = 2U8VVNA68Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -331,7 +381,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FBCBACF2B048EE000F89254 /* Build configuration list for PBXProject "prototype" */ = {
+		4FBCBACF2B048EE000F89254 /* Build configuration list for PBXProject "Menu Muse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FBCBAE52B048EE200F89254 /* Debug */,
@@ -340,7 +390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FBCBAE72B048EE200F89254 /* Build configuration list for PBXNativeTarget "prototype" */ = {
+		4FBCBAE72B048EE200F89254 /* Build configuration list for PBXNativeTarget "Menu Muse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FBCBAE82B048EE200F89254 /* Debug */,
