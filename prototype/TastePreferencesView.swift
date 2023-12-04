@@ -22,7 +22,7 @@ struct TastePreferencesView: View {
     let preferenceTypes = ["love", "neutral", "hate"]
     
     var body: some View {
-        NavigationView{
+        //NavigationView{
             Form{
                 Section{
                     HStack{
@@ -165,9 +165,9 @@ struct TastePreferencesView: View {
                     .pickerStyle(.segmented)
                 }
             }
-            .navigationBarTitle("Taste Preferences", displayMode: .inline)
+            .navigationTitle("Taste Preferences")
         }
-    }
+    //}
 }
 
 struct InfoPopover: View {

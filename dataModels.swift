@@ -124,3 +124,23 @@ struct Recipe: Codable, Hashable, Identifiable {
     #endif
     
 }
+
+
+//struct to hold the ingredients for a recipe
+//need to expand this guy for all fields in the ingredients tbl
+
+struct Ingredient: Identifiable {
+    let id = UUID()
+    var quantity: String
+    var unit: String
+    var name: String
+    var comment: String?
+}
+
+
+//struct to hold the directions for a recipe
+//need to expand this guy for all fields in the directions tbl
+struct Direction: Identifiable {
+    let id = UUID()
+    var step: String
+}

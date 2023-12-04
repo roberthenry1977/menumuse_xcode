@@ -123,6 +123,11 @@ struct DishPlanDetailView: View {
             Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis tincidunt lorem sit amet fringilla. Cras scelerisque scelerisque purus, a tincidunt neque commodo sed. Donec et tristique mauris, sit amet posuere nunc. Phasellus elementum, turpis ac vulputate dignissim, nunc nunc gravida enim, ut blandit lorem massa eget nunc. Aliquam ut pharetra nunc. Quisque in quam fermentum, vestibulum justo quis, porttitor neque. Quisque cursus semper lacinia. ")
                 .padding(5)
             
+            NavigationLink(destination: RecipeDetailView(recipeID:viewModel.recipeID,recipeName: viewModel.recipeName)) {
+                        Text("Recipe Detail")
+                    }
+            
+            
             Picker("Meal type:", selection: $mealType) {
                 ForEach(mealTypes, id: \.self) {
                     Text($0.rawValue)
